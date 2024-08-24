@@ -11,8 +11,8 @@ jobs:
       - name: Install dependencies
         run: make
       - name: Setup
-        run: make make setup
+        run: make setup
       - name: Lint
-        run: make make lint
+        run: make lint
       - name: Test
-        run: make make test
+        run: make test
